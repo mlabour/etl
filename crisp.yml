@@ -1,0 +1,7 @@
+# 
+# Environment-specific configuration
+#
+
+crisp:
+  data_dir: /home/mlabour/crisp/data
+  transformations_file: /home/mlabour/crisp/transformations.json

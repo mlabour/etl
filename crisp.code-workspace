@@ -1,0 +1,23 @@
+{
+	"folders": [
+                {
+                        "path": "c3p-model"
+                },
+                {
+                        "path": "c3p-core"
+                },
+		{
+			"path": "c3p-etl"
+		},
+	],
+	"settings": {
+		"python.venvFolders": [
+			".cache/pypoetry/virtualenvs"
+		],
+		"python.venvPath": "~/.cache/pypoetry/virtualenvs",
+		"[python]": {
+			"editor.defaultFormatter": "ms-python.black-formatter"
+		},
+		"python.formatting.provider": "none"
+	}
+}

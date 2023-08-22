@@ -1,0 +1,45 @@
+[
+    {
+        "rename": {
+            "source_column": "Order Number",
+            "target_column": "OrderID",
+            "data_type": "int"
+        }
+    },
+    {
+        "concatenate_date": {
+            "year_column": "Year",
+            "month_column": "Month",
+            "day_column": "Day",
+            "target_column": "OrderDate"
+        }
+    },
+    {
+        "rename": {
+            "source_column": "Product Number",
+            "target_column": "ProductId",
+            "data_type": "str"
+        }
+    },
+    {
+        "proper_case": {
+            "source_column": "Product Name",
+            "target_column": "ProductName"
+        }
+    },
+    {
+        "transform": {
+            "source_column": "Count",
+            "target_column": "Quantity",
+            "func": "convert_to_float_with_two_decimals"
+        }
+    },
+    {
+        "add_weight_value": {
+            "target_column": "Unit",
+            "value": "kg",
+            "data_type": "str"
+        }
+    }
+]
+

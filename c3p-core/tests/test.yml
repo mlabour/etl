@@ -1,0 +1,10 @@
+# 
+# Environment-specific configuration
+#
+
+# Type of the environment
+environment: test
+
+# Location of the data files saved to the file system
+data_dir: /data
+

@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "c3p-core"
+version = "0.1.0"
+description = "Core module for Crisp services"
+authors = ["Matthieu Labour <matthieu.labour@gmail.com>"]
+license = "MIT License"
+
+[tool.poetry.dependencies]
+python = ">= 3.6.9, <= 3.10.*"
+PyYAML = "^5.4.1"
+wrapt = "^1.12.1"
+tabulate = "^0.8.9"
+psutil = "^5.8.0"
+backports-datetime-fromisoformat = { version = "^1.0.0", python = "~3.6" }
+typing-compat = "^0.1.0"
+
+[tool.poetry.dev-dependencies]
+tox = "^3.21.4"
+mypy = "^0.800"
+pytest-cov = "^2.11.1"
+pytest-runner = "^5.2"
+pytest = "^6.2.2"
+isort = "^5.7.0"
+coverage = "^5.4"
+bumpversion = "^0.6.0"
+pre-commit = "^2.10.1"
+flake8 = "^3.8.4"
+black = "^20.8b1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
