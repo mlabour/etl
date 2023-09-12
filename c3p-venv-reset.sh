@@ -16,7 +16,7 @@ else
     rm -rfv $HOME/.cache/pypoetry/virtualenvs/$repo_name*/lib/python*/site-packages/c3p_* | egrep "/site-packages/[^/]*'$"
     rm -rfv $HOME/.cache/pypoetry/virtualenvs/$repo_name*/src/c3p-* | egrep "/src/[^/]*'$"
     echo "-----"
-    echo "Cleared Crisp dependencies from $repo_name virtual environment."
+    echo "Cleared dependencies from $repo_name virtual environment."
 fi
 
 echo "Run poetry update c3p-*"
